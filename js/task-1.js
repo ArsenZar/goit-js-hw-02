@@ -1,8 +1,25 @@
 
 
-/* 
 
---- test with while loop
+
+/* 
+--- thats the same as the previous task but with for loop.
+
+function sumTo(number) {
+    let totalResoult = 0;
+
+    for (let i = 0; i <= number; i += 1) {
+        totalResoult += i;
+    }
+    return totalResoult;
+};
+
+console.log(sumTo(18));
+.
+.
+.
+
+--- test with while loop.
 
 let totalResoult = 0;
 
