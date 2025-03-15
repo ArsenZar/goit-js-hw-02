@@ -1,8 +1,34 @@
+function sumTo(number) {
+    let totalResoult = 0;
+    let i;
 
+    for (i = 0; totalResoult <= number; i += 1) {
+        totalResoult += i;
+    }
+    return i;
+};
+
+console.log(sumTo(170));
 
 
 
 /* 
+--- thats the same as the previous task but different way.
+
+function sumTo(number) {
+    let totalResoult = 0;
+    let i;
+
+    for (i = 0; totalResoult <= number; i += 1) {
+        totalResoult += i;
+    }
+    return i;
+};
+
+console.log(sumTo(170));
+.
+.
+.
 --- thats the same as the previous task but with for loop.
 
 function sumTo(number) {
@@ -18,7 +44,6 @@ console.log(sumTo(18));
 .
 .
 .
-
 --- test with while loop.
 
 let totalResoult = 0;
